@@ -1,6 +1,8 @@
 # htaccess-restrict-wp-innerworkings
 A sample `.htaccess` file with rules to protect a WordPress website from malicious activities.
 
+You can add this sample block rules to the .htaccess file in your WordPress main folder, typically the public_html folder. Just adding the lines without replacing or changing the existing .htaccess file is recommended.
+
 This is an `.htaccess` file that contains rules to restrict access to certain files and directories on a web server. It includes a range of rules to protect the website against malicious intents.
 
 The first section of the file blocks access to some sensitive files such as error logs, PHP configuration files, and `.htaccess` files themselves. The second section includes rules that prevent access to certain directories and files, such as the WordPress admin & includes directory and certain PHP files within the wp-includes directory.
